@@ -57,7 +57,7 @@ export async function PUT(
 export async function POST(
 	req: Request,
 	{ params: { chapterId } }: ChapterIdParams
-): Promise<NextResponse<UserProgress>> {
+) {
 	const { userId } = auth();
 	if (!userId) {
 		return new NextResponse('Unauthorized', { status: 401 });

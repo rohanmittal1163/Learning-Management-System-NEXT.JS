@@ -9,7 +9,7 @@ import { CourseParams } from '../route';
 export async function GET(
 	req: Request,
 	{ params: { courseId } }: CourseParams
-): Promise<{ url: string }> {
+) {
 	try {
 		const user = await currentUser();
 		const emailAddress = user?.emailAddresses[0].emailAddress;
