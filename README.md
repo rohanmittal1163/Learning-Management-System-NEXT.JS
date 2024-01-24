@@ -9,7 +9,10 @@
 
 ![image](https://github.com/rohanmittal1163/Learning-Management-System-NEXT.JS/assets/97821844/a62fedcd-ea9a-45aa-a95f-3446a2631727)
 ![image](https://github.com/rohanmittal1163/Learning-Management-System-NEXT.JS/assets/97821844/55bdb6b3-06e8-4826-a640-2893faf8273f)
+
 ![image](https://github.com/rohanmittal1163/Learning-Management-System-NEXT.JS/assets/97821844/996e554f-0ae4-46f0-88da-f35c727c9895)
+![image](https://github.com/rohanmittal1163/Learning-Management-System-NEXT.JS/assets/97821844/65532ddb-be51-496b-841c-ac5add1a5a08)
+
 
 
 ## Getting Started
