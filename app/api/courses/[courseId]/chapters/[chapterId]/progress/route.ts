@@ -5,7 +5,9 @@ import { ChapterIdParams } from '../route';
 
 export async function POST(
 	req: Request,
-	{ params: { chapterId } }: ChapterIdParams
+	{
+		params: { courseId, chapterId },
+	}: { params: { courseId: string; chapterId: string } }
 ) {
 	try {
 		const { userId } = auth();
@@ -33,6 +35,7 @@ export async function POST(
 		const url: { id: string } | null = await db.chapter.findFirst({
 			where: {
 				position: position + 1,
+				courseId,
 			},
 			select: {
 				id: true,
