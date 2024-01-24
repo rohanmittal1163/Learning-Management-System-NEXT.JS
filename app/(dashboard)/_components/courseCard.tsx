@@ -73,7 +73,7 @@ export default function CourseCard({
 							/>
 							<p
 								className={`text-emerald-500 text-xs font-semibold	`}
-							>{`${progress}% Complete`}</p>
+							>{`${progress.toFixed(2)}% Complete`}</p>
 						</>
 					)}
 				</div>

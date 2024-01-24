@@ -9,6 +9,9 @@
 		"lint": "next lint",
 		"postinstall": "prisma generate"
 	},
+	"prisma": {
+		"seed": "node scripts/seed.ts"
+	},
 	"dependencies": {
 		"@clerk/nextjs": "^4.29.2",
 		"@hello-pangea/dnd": "^16.5.0",

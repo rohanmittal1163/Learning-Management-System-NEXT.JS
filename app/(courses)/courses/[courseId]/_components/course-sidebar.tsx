@@ -43,7 +43,7 @@ export default async function CourseSidebar({
 						className="w-full  h-2 bg-white/40 border-[1px] border-solid border-slate-300 "
 						indicatorColor="bg-green-400"
 					/>
-					<p>{progressCount}% Complete</p>
+					<p>{progressCount.toFixed(2)}% Complete</p>
 				</div>
 			)}
 
