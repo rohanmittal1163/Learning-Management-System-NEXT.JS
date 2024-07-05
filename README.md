@@ -1,4 +1,6 @@
+# Idemy
 
+A LMS where users can view their purchased courses and instructors can create update or delete their course and the chapters with additional use of payment functionality through stripe
 # DEMO
 ![image](https://github.com/rohanmittal1163/Learning-Management-System-NEXT.JS/assets/97821844/f6080417-0bb2-4ce7-9474-36c45ad2c716)
 
